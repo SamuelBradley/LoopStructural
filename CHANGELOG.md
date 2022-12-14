@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.5.4](https://github.com/Loop3D/LoopStructural/compare/v1.5.3...v1.5.4) (2022-12-14)
+
+
+### Bug Fixes
+
+* absolute import to relative import ([0ff0ba9](https://github.com/Loop3D/LoopStructural/commit/0ff0ba95f5efa4a543232a901b8fcc1ad542a216))
+* adding meshio to docs docker ([12ca5d3](https://github.com/Loop3D/LoopStructural/commit/12ca5d3e477e10cbf5737b112acba1c039358f80))
+* removing old create dtm function ([b559674](https://github.com/Loop3D/LoopStructural/commit/b559674d46580706bc4136bd561db5f14dfc076f))
+* removing probability module ([5b0b6a2](https://github.com/Loop3D/LoopStructural/commit/5b0b6a2cca303066439c6e9d634798fdfeb93535))
+* typo in feature exporter ([a735e9f](https://github.com/Loop3D/LoopStructural/commit/a735e9ffcfe2d42dff06a28752194aa4b44829ec))
+
+
+### Documentation
+
+* fixing lavavu version ([a993f60](https://github.com/Loop3D/LoopStructural/commit/a993f6053d0814b36ac128ffceef7dffda9fb719))
+* rename builder to builders ([d332399](https://github.com/Loop3D/LoopStructural/commit/d33239921623dbd909cc94bc31353e4b2ff11efd))
+
 ## [1.5.3](https://github.com/Loop3D/LoopStructural/compare/v1.5.2...v1.5.3) (2022-11-02)
 
 
