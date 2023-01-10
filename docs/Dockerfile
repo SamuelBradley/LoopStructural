@@ -4,32 +4,32 @@ LABEL maintainer="lachlan.grose@monash.edu"
 # install things
 
 RUN apt-get update -qq && \
-    DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
-    gcc \
-    g++ \
-    libc-dev \
-    make
+	DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
+	gcc \
+	g++ \
+	libc-dev \
+	make
 RUN conda install -c conda-forge\
-    cython\
-    numpy\ 
-    pandas\ 
-    imageio\ 
-    scipy\ 
-    matplotlib\  
-    sphinx\
-    sphinx-gallery\ 
-    sphinxcontrib-bibtex\ 
-    sphinx_rtd_theme\ 
-    myst-parser\ 
-    scikit-learn\ 
-    scikit-image\ 
-    pyamg\ 
-    flake8\
-    pytest\
-    networkx\
-    geopandas\
-    meshio\
-    -y
-RUN pip install lavavu-osmesa==1.8.32
+	cython\
+	numpy\ 
+	pandas\ 
+	imageio\ 
+	scipy\ 
+	matplotlib\  
+	sphinx\
+	sphinx-gallery\ 
+	sphinxcontrib-bibtex\ 
+	sphinx_rtd_theme\ 
+	myst-parser\ 
+	scikit-learn\ 
+	scikit-image\ 
+	pyamg\ 
+	flake8\
+	pytest\
+	networkx\
+	geopandas\
+	meshio\
+	-y
+RUN pip install lavavu-osmesa==1.8.36
 RUN conda install -c conda-forge pydata-sphinx-theme 
 RUN mkdir LoopStructural
