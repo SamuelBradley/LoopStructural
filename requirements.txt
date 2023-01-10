@@ -8,6 +8,7 @@ pandas
 lavavu
 pyevtk
 dill
+matplotlib
 
 
 
